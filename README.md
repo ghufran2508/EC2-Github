@@ -3,6 +3,12 @@ A workflow to connect github action with ec2 instance using ssh key and perfrom 
 
 Add secrets in github secret actions...
 
+pre requisite:
+- setup your github account (ssh-key) on ec2.
+- create folders on ec2 following same name as branches. (can easily navigate using github.ref_name.
+- intall pm2 (commands e.g: list, start, restart, remove)
+- install language suuport / compiler
+
 ```
 name: Update EC2 Instance
 
